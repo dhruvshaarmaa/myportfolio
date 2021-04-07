@@ -1,0 +1,84 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+section {
+  display: block;
+  padding: 60px 0;
+}
+
+#hero {
+  background-attachment: initial;
+  width: 100%;
+  height: 100vh;
+  background-image: url("./my-pic.jpg");
+  background-position-x: 25%;
+  background-position-y: top;
+  background-size: cover;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+  background-size: cover;
+  position: relative;
+}
+
+img {
+}
+
+@media (min-width: 1024px) {
+  #hero {
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
+  }
+}
+
+.hero-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 15px;
+}
+
+.heading {
+  color: darkblue;
+  border-bottom: 3px solid lightskyblue;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  width: 50px;
+}
+.img-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* nav{
+    position: sticky;
+} */
+#btn-scroll {
+  margin-left: auto;
+}
+
+td a {
+  text-decoration: none;
+}
+
+table {
+  border: 1px solid;
+}
+
+.navbar-nav .nav-link{
+  padding-left: 1rem;
+}
